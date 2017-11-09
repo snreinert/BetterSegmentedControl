@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: - BetterSegmentedControl
-@IBDesignable open class BetterSegmentedControl: UIControl {
+@objcMembers @IBDesignable open class BetterSegmentedControl: UIControl {
     // MARK: IndicatorView
     fileprivate class IndicatorView: UIView {
         // MARK: Properties
